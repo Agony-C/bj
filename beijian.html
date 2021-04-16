@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <title>备件</title>
+    <script>
+	    window.onload = window.onresize = function(){
+	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+	        var _html = document.getElementsByTagName('html')[0];
+	        view_width>828?_html.style.fontSize = 828 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+	    }
+	</script>
+    <style>
+         body{
+            background-color: #EBF1F7;
+        }
+        .bj{
+            width: 20.7rem;
+            height: 16.875rem;
+            position: relative;
+            z-index: 0;
+        }
+        .bj img{
+            width: 100%;
+            height: 100%;
+        }
+        .box{
+            width: 18.9rem;
+            height: 20.075rem;
+            border-radius: 0.225rem;
+            margin:-5rem  0.9rem  0  0.9rem;
+            background-color: #fff;
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="bj">
+        <img src="img/bj.jpg" alt="">
+    </div>
+    <div class="box">
+        
+    </div>
+</body>
+</html>
